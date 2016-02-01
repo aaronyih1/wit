@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Garamond';
+}
+#bats{
+	background-color: red;
+	height: 100vh;
+	text-align: center;
+}
+#bats h1{
+	display: inline-block;
+	font-size: 70pt;
+	font-weight: 100;
+	position: relative;
+	top: 30vh;
+	color: #66686c;
+}
+#bats h1 span{
+	color: #f8d647;
+}
+#bats h2{
+	position: relative;
+	top:20vh;
+	font-weight: 100;
+	color: #66686c;
+	font-size: 16pt;
+}
+#arrow{
+	width: 35px;
+	position: relative;
+	top:53vh;
+	display: block;
+	margin: 0 auto;
+}
+.divider{
+	height: 70px;
+	background-color: black;
+}
+
+#section3{
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+	width: 60vw;
+	min-width:500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#section3 p{
+	color: #66686c;
+	font-weight: 100;
+	font-size: 30pt;
+	vertical-align: middle;
+	text-align: justify;
+}
+#section3 p span{
+	font-size: 70pt;
+	line-height: 30pt;
+}
+#section3 p span span{
+	color: #f8d647;
+}
+#section4{
+	width:60vw;
+	display: block;
+	margin: 0 auto;
+}
+#section4 img{
+	width: 30vw;
+}
+#section4 table{
+	display: inline-block;
+}
+#footer{
+	height:100px;
+	background-color: black;
+	color: #66686c;
+	text-align: center;
+}
+#footer p{
+	position: relative;
+	top:40%;
+}
+#footer p a{
+	color: #66686c;
+}
