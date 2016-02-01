@@ -2,8 +2,10 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0;
+    width: 100%;
     font-family: 'Garamond';
 }
+
 /* bat background div*/
 #bats{
 	/*background-color: red;*/
@@ -52,6 +54,7 @@ html, body {
 	/*width: 100%;*/
 	left: 49%;
 	text-align: center;
+
 }
 .divider{
 	height: 70px;
@@ -104,27 +107,4 @@ html, body {
 }
 #footer p a{
 	color: #66686c;
-}
-/* */
-/*
-body {
-	background-color: #ffffff;
-	margin: 0px;
-	overflow: hidden;
-	font-family:Monospace;
-	font-size:13px;
-	text-align:center;
-	text-align:center;
-	cursor: pointer;
-}
 
-a {
-	color:#0078ff;
-}
-
-#info {
-	color: #000;
-	position: absolute;
-	top: 10px;
-	width: 100%;
-}*/
