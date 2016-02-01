@@ -166,7 +166,7 @@ function init() {
 
 
 
-    var gui = new dat.GUI();
+    // var gui = new dat.GUI();
 
 
     var effectController = {
@@ -188,10 +188,10 @@ function init() {
     valuesChanger();
 
 
-    gui.add( effectController, "seperation", 0.0, 100.0, 1.0 ).onChange( valuesChanger );
-    gui.add( effectController, "alignment", 0.0, 100, 0.001 ).onChange( valuesChanger );
-    gui.add( effectController, "cohesion", 0.0, 100, 0.025 ).onChange( valuesChanger );
-    gui.close();
+    // gui.add( effectController, "seperation", 0.0, 100.0, 1.0 ).onChange( valuesChanger );
+    // gui.add( effectController, "alignment", 0.0, 100, 0.001 ).onChange( valuesChanger );
+    // gui.add( effectController, "cohesion", 0.0, 100, 0.025 ).onChange( valuesChanger );
+    // gui.close();
 
     initBirds();
 
